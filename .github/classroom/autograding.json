@@ -3,7 +3,7 @@
     {
       "name": "ES Lint",
       "setup": "",
-      "run": "git clone git@github.com:2023-ctech-cs5356/milestone-1-tests.git; milestone-1-tests/run.sh lint",
+      "run": "git clone https://github.com/2023-ctech-cs5356/milestone-1-tests.git; milestone-1-tests/run.sh lint",
       "input": "",
       "output": "",
       "comparison": "included",
