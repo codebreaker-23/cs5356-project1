@@ -1,0 +1,40 @@
+.ul-style {
+    list-style: disc;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.slider-dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    display: inline-block;
+    background-color: transparent;
+    border-color: #ddd;
+    border-width: 3 px;
+    border-style: solid;
+    border-radius: 60%;
+    transition: border-color 0.2s ease;
+}
+
+.image-slide {
+    display: none;
+}
+
+.slider-dots {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.active-dot {
+    background-color: #666;
+}
+
+.right-arrow-button {
+    float: right;
+}
+
+.is-horizontal-center {
+    justify-content: center;
+  }

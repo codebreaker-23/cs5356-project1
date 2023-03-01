@@ -2,9 +2,96 @@
 
 <head>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body>  
+<script type="module" src="./index.js"></script>
+
+<body class="has-navbar-fixed-top">
+  <nav class="navbar has-shadow is-fixed-top" role="navigation">
+    <div class="navbar-brand">
+      <h1 class="title is-4 pl-5">BK PETS</h1>
+    </div>
+  </nav>
+  <section>
+    <div class="columns has-background-light p-6">
+      <div class="column mx-6">
+        <p class="title has-text-justified is-size-2 has-text-dark">The best <br> products for <br> your dog</p>
+        <p class="subtitle has-text-justified is-size-4 has-text-dark">Because your dogs deserve to <br> be at their happiest</p>
+        <button class="button is-black" onClick="document.getElementById('products').scrollIntoView();">Learn
+          More</button>
+      </div>
+      <div class="column mx-3" id="img-slider">
+      </div>
+    </div>
+  </section>
+  <section id="product_display">
+    <div id="products">
+    </div>
+  </section>
+  <section class="has-background-light p-6">
+    <p class="title has-text-dark has-text-centered is-size-2">Let you dear ones experience a new way</p>
+    <p class="subtitle has-text-dark has-text-centered is-size-4">Read how our customers across the globe feel about our products
+      and how it has improved their pets health. </p>
+    <div class="columns p-6 is-vcentered">
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="./assets/img-1.webp" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <p>@someoneinqueens</p>
+            <p>My dog loves these shampoos!</p><br>
+            <time>2 weeks ago</time>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="./assets/img-2.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <p>@someoneinbrooklyn</p>
+            <p>My dog hogs the shower now</p><br>
+            <time>3 weeks ago</time>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="/assets/img-3.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <p>@someoneinmanhattan</p>
+            <p>Even I like the dog shampoo</p><br>
+            <time>4 weeks ago</time>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer has-shadow mt-auto is-fixed-bottom">
+    <div class="columns">
+      <div class="column pl-6">
+        <img src="./assets/logo.jpg" width="120" height="60">
+        <p class="bd-footer-link has-text-left">© 2010 - 2020</p>
+        <p class="bd-footer-link has-text-left">Privacy - Terms</p>
+      </div>
+      <div class="column pr-6">
+        <h5 class="bd-footer-text has-text-weight-bold has-text-right pb-2">Follow us on</h5>
+        <p class="bd-footer-link has-text-right pb-2">Instagram</p>
+        <p class="bd-footer-link has-text-right">Facebook</p>
+      </div>
+    </div>
+  </footer>
 </body>
-  
+
 </html>
