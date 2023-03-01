@@ -20,7 +20,6 @@ var imageSlider = function (json, playDisplay) {
     }
 
     const imageCards = document.createElement('div')
-    var count = 0
     json.forEach(post => {
         var card = getImageAsCard(post)
         imageCards.appendChild(card);
