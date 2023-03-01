@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "ES Lint",
+      "setup": "",
+      "run": "git clone https://github.com/2023-ctech-cs5356/milestone-1-tests.git; milestone-1-tests/run.sh lint",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
